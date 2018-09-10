@@ -1,6 +1,6 @@
 """
     Use turtle graphics to draw a tetris board with two simple shapes
-
+    
     File: Lab 1.py
     Author: Nicholas Curl
 """
