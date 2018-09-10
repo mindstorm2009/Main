@@ -88,6 +88,7 @@ def draw_lineblock(col, row, rot):
         turtle_move(-col, -row)
     else:
         print("error")
+        turtle_move(-col, -row)
 
 
 def draw_squareblock(col, row):
@@ -149,10 +150,13 @@ def draw_rsquig(col, row, rot):
         forward(20)
         right(180)
         turtle_move(-col, -row)
+    else:
+        print("error")
+        turtle_move(-col, -row)
 
 
 def draw_squig(col, row, rot):
-    fillcolor("red")
+    fillcolor("purple")
     turtle_move(col, row)
     if rot == 0 or rot == 180:
         forward(20)
@@ -169,10 +173,13 @@ def draw_squig(col, row, rot):
         right(180)
         forward(20)
         left(90)
-        forward(20)
+        forward(10)
         left(180)
         turtle_move(-col, -row)
     elif rot == 90 or rot == 270:
+        right(90)
+        forward(10)
+        left(90)
         draw_block()
         forward(10)
         draw_block()
@@ -182,37 +189,244 @@ def draw_squig(col, row, rot):
         draw_block()
         forward(10)
         draw_block()
+        right(180)
+        forward(20)
+        right(180)
+        turtle_move(-col, -row)
+    else:
+        print("error")
+        turtle_move(-col, -row)
+
+
+def draw_lblock(col, row, rot):
+    # Draws a L block colored green
+    fillcolor("green")
+    turtle_move(col, row)
+    if rot == 0:
+        forward(10)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+        left(90)
+        forward(20)
+        left(90)
+        forward(10)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 90:
+        right(90)
+        forward(10)
+        left(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+        forward(10)
+        left(90)
+        forward(20)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 180:
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        right(90)
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(180)
+        forward(20)
+        left(90)
+        forward(20)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 270:
+        right(90)
+        forward(10)
+        left(90)
+        draw_block()
+        left(90)
+        forward(10)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        right(180)
+        forward(20)
+        right(180)
+        turtle_move(-col, -row)
+    else:
+        print("error")
+        turtle_move(-col, -row)
+
+
+def draw_rlblock(col, row, rot):
+    fillcolor("orange")
+    turtle_move(col, row)
+    if rot == 0:
+        forward(10)
+        draw_block()
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
         right(90)
         forward(10)
         right(90)
         forward(20)
+        right(90)
+        turtle_move(-col, -row)
+    elif rot == 90:
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        right(90)
+        forward(10)
+        left(90)
+        draw_block()
+        left(90)
+        forward(10)
+        left(90)
+        forward(20)
         right(180)
+        turtle_move(-col, -row)
+    elif rot == 180:
+        forward(20)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        right(90)
+        forward(10)
+        draw_block()
+        right(90)
+        forward(30)
+        left(90)
+        forward(10)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 270:
+        forward(10)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        forward(10)
+        left(90)
+        forward(20)
+        left(180)
         turtle_move(-col, -row)
 
 
-def draw_lblock(rot):
-    # Draws a L block colored green
-    fillcolor("green")
-    left(rot)
-    draw_block()
-    left(90)
-    forward(10)
-    right(90)
-    draw_block()
-    forward(10)
-    draw_block()
-    forward(10)
-    draw_block()
-    right(90)
-    forward(10)
-    right(90)
-    forward(20)
-    right(180)
+def draw_tblock(col, row, rot):
+    fillcolor("pink")
+    if col == 9:
+        col = col-2
+    elif col == 8:
+        col = col-1
+    if row == 19:
+        row = row-1
+    if rot == 0:
+        draw_block()
+        forward(10)
+        draw_block()
+        right(90)
+        forward(10)
+        left(90)
+        draw_block()
+        left(90)
+        forward(10)
+        right(90)
+        forward(10)
+        draw_block()
+        right(180)
+        forward(20)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 90:
+        forward(10)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+        right(90)
+        forward(10)
+        draw_block()
+        right(180)
+        forward(20)
+        left(90)
+        forward(10)
+        right(180)
+        turtle_move(-col, -row)
+    elif rot == 180:
+        right(90)
+        forward(10)
+        left(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+        right(90)
+        forward(10)
+        draw_block()
+        right(180)
+        forward(20)
+        right(90)
+        forward(10)
+        right(90)
+        turtle_move(-col, -row)
+    elif rot == 270:
+        forward(20)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        right(90)
+        forward(10)
+        draw_block()
+        right(90)
+        forward(20)
+        left(90)
+        forward(10)
+        right(180)
+        turtle_move(-col, -row)
+    else:
+        print("error")
+        turtle_move(-col, -row)
 
 
 def turtle_move(x, y):
-    x = x * 10
-    y = y * 10
+    x = (x * 10)
+    y = (y * 10)
     right(90)
     forward(x)
     left(90)
@@ -224,17 +438,28 @@ def main():
     blocks with each shape in different positions and rotations."""
     initialize()
     draw_board()
-    shape = input("What Shape (B,I,L,J,Z,S,T): ")
-    posX = int(input("What Column (0-9):"))
-    posY = int(input("What Row (0-19):"))
-    deg = int(input("What direction (0,90,180,270)"))
-    if shape == "I" or shape == "i":
-        draw_lineblock(posX, posY, deg)
-    elif shape == "B" or shape == "b":
-        draw_squareblock(posX, posY)
-    elif shape == "S" or shape == "s":
-        draw_rsquig(posX, posY, deg)
-        draw_rsquig(posX, posY, 90)
+    while True:
+        shape = input("What Shape (B,I,L,J,Z,S,T): ")
+        posX = int(input("What Column (0-9):"))
+        posY = int(input("What Row (0-19):"))
+        deg = int(input("What direction (0,90,180,270)"))
+        if shape == "I" or shape == "i":
+            draw_lineblock(posX, posY, deg)
+        elif shape == "B" or shape == "b":
+            draw_squareblock(posX, posY)
+        elif shape == "S" or shape == "s":
+            draw_rsquig(posX, posY, deg)
+        elif shape == "L" or shape == "l":
+            draw_lblock(posX, posY, deg)
+        elif shape == "J" or shape == "j":
+            draw_rlblock(posX, posY, deg)
+        elif shape == "T" or shape == "t":
+            draw_tblock(posX, posY, deg)
+        elif shape == "Z" or shape == "z":
+            draw_squig(posX, posY, deg)
+        else:
+            print("error")
+            break
     done()
 
 
