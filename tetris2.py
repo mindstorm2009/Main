@@ -190,11 +190,20 @@ def draw_squig(col, row, rot):
         turtle_move(-col, -row)
 
 
-def draw_lblock(rot):
+def draw_lblock(col, row, rot):
     # Draws a L block colored green
     fillcolor("green")
-    left(rot)
-    draw_block()
+    if rot == 0:
+        forward(10)
+        right(90)
+        draw_block()
+        forward(10)
+        draw_block()
+        forward(10)
+        draw_block()
+        left(90)
+        draw_block()
+    """draw_block()
     left(90)
     forward(10)
     right(90)
@@ -207,7 +216,7 @@ def draw_lblock(rot):
     forward(10)
     right(90)
     forward(20)
-    right(180)
+    right(180)"""
 
 
 def turtle_move(x, y):
@@ -234,7 +243,8 @@ def main():
         draw_squareblock(posX, posY)
     elif shape == "S" or shape == "s":
         draw_rsquig(posX, posY, deg)
-        draw_rsquig(posX, posY, 90)
+    elif shape == "L" or shape == "l":
+        draw_lblock(posX, posY, deg)
     done()
 
 
