@@ -12,4 +12,5 @@ def fib1():
 def fib2():
     return fib0() + fib1()
 
+
 print(fib2())
