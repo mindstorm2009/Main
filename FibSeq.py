@@ -1,20 +1,13 @@
 from math import *
 
 
-def fib0():
-    return 0
+def fib(n):
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fib(n - 1) + fib(n - 2)
 
 
-def fib1():
-    return 1
-
-
-def fib2():
-    return fib0() + fib1()
-
-
-def fib3():
-    return fib2() + fib1()
-
-
-print(fib3())
+print(fib(45))
