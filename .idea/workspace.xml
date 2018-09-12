@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="26c0ca08-3f7f-4097-ad40-19f439f1f36d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/FibSeq.py" beforeDir="false" afterPath="$PROJECT_DIR$/FibSeq.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/bowties.py" beforeDir="false" afterPath="$PROJECT_DIR$/bowties.py" afterDir="false" />
+>>>>>>> lab
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +18,14 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Main$Lab_1.coverage" NAME="Lab 1 Coverage Results" MODIFIED="1535909232809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$roots.coverage" NAME="roots Coverage Results" MODIFIED="1536257538527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/Main$test.coverage" NAME="test Coverage Results" MODIFIED="1536787815064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Main$bowties.coverage" NAME="bowties Coverage Results" MODIFIED="1536788311663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$Activity.coverage" NAME="Activity Coverage Results" MODIFIED="1535736139549" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+<<<<<<< HEAD
     <SUITE FILE_PATH="coverage/Main$FibSeq.coverage" NAME="FibSeq Coverage Results" MODIFIED="1536769817593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+=======
+    <SUITE FILE_PATH="coverage/Main$Lab3.coverage" NAME="Lab3 Coverage Results" MODIFIED="1536787901420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+>>>>>>> lab
     <SUITE FILE_PATH="coverage/Main$tetris.coverage" NAME="tetris Coverage Results" MODIFIED="1536598959894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$tetris2.coverage" NAME="tetris2 Coverage Results" MODIFIED="1536769021218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
@@ -23,42 +33,71 @@
     <session id="-739732857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.closed" value="15" />
           <entry key="project.open.time.0" value="3" />
+=======
+          <entry key="project.closed" value="13" />
+          <entry key="project.open.time.0" value="4" />
+>>>>>>> lab
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.7" value="1" />
+<<<<<<< HEAD
           <entry key="project.open.time.8" value="6" />
           <entry key="project.open.time.9" value="2" />
           <entry key="project.opened" value="19" />
+=======
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="17" />
+>>>>>>> lab
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="16" />
           <entry key="pyi" value="1" />
+=======
+          <entry key="py" value="13" />
+>>>>>>> lab
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="Python" value="16" />
           <entry key="PythonStub" value="1" />
+=======
+          <entry key="Python" value="13" />
+>>>>>>> lab
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="21" />
           <entry key="dummy" value="7" />
+<<<<<<< HEAD
           <entry key="py" value="10750" />
           <entry key="txt" value="22" />
+=======
+          <entry key="py" value="11580" />
+          <entry key="txt" value="10" />
+>>>>>>> lab
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="29" />
           <entry key="Python" value="10771" />
+=======
+          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="Python" value="11601" />
+>>>>>>> lab
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -83,8 +122,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tetris2.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state>
               <caret column="3" selection-start-column="3" selection-end-column="3" />
+=======
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> lab
             </state>
           </provider>
         </entry>
@@ -92,8 +136,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Lab 1.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="34">
               <caret line="2" selection-start-line="2" selection-end-line="2" />
+=======
+            <state relative-caret-position="306">
+              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+>>>>>>> lab
               <folding>
                 <element signature="e#191#204#0" expanded="true" />
               </folding>
@@ -102,12 +151,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/FibSeq.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
               <folding>
                 <marker date="1536769817568" expanded="true" signature="32:150" ph="..." />
+=======
+        <entry file="file://$PROJECT_DIR$/bowties.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+              <folding>
+                <marker date="1536788311650" expanded="true" signature="40:45" ph="..." />
+                <marker date="1536788311650" expanded="true" signature="332:337" ph="..." />
+                <marker date="1536788311650" expanded="true" signature="534:894" ph="..." />
+                <marker date="1536788311650" expanded="true" signature="905:910" ph="..." />
+>>>>>>> lab
               </folding>
             </state>
           </provider>
@@ -147,10 +208,16 @@
         <option value="$PROJECT_DIR$/Lab 2.py" />
         <option value="$PROJECT_DIR$/tetris2.py" />
         <option value="$PROJECT_DIR$/Lab 1.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/FibSeq.py" />
         <option value="$PROJECT_DIR$/venv/Lab3.py" />
         <option value="$PROJECT_DIR$/Lab3.py" />
         <option value="$PROJECT_DIR$/test.pyi" />
+=======
+        <option value="$PROJECT_DIR$/test.py" />
+        <option value="$PROJECT_DIR$/Lab3.py" />
+        <option value="$PROJECT_DIR$/bowties.py" />
+>>>>>>> lab
       </list>
     </option>
   </component>
@@ -161,10 +228,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="height" value="527" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -174,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -205,7 +272,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,8 +298,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.FibSeq">
     <configuration name="FibSeq" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.bowties">
+    <configuration name="Lab3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> lab
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,7 +317,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FibSeq.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab3.py" />
+>>>>>>> lab
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -255,7 +330,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Lab 1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="bowties" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,7 +343,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Lab 1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bowties.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +352,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="roots" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -285,12 +360,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="C:\Users\nicho\Documents\Computer Science\Homework\Main\roots.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -345,9 +420,8 @@
     </configuration>
     <list>
       <item itemvalue="Python.tetris" />
-      <item itemvalue="Python.Lab 1" />
-      <item itemvalue="Python.roots" />
       <item itemvalue="Python.tetris2" />
+<<<<<<< HEAD
       <item itemvalue="Python.FibSeq" />
     </list>
     <recent_temporary>
@@ -357,6 +431,19 @@
         <item itemvalue="Python.tetris" />
         <item itemvalue="Python.roots" />
         <item itemvalue="Python.Lab 1" />
+=======
+      <item itemvalue="Python.bowties" />
+      <item itemvalue="Python.Lab3" />
+      <item itemvalue="Python.test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.bowties" />
+        <item itemvalue="Python.Lab3" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.tetris2" />
+        <item itemvalue="Python.tetris" />
+>>>>>>> lab
       </list>
     </recent_temporary>
   </component>
@@ -406,15 +493,23 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20095949" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1988273" />
+>>>>>>> lab
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.16684724" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.33260393" />
+=======
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.09652928" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.17678958" />
+>>>>>>> lab
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -441,6 +536,22 @@
     <MESSAGE value="Added File" />
     <option name="LAST_COMMIT_MESSAGE" value="Added File" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bowties.py</url>
+          <line>11</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/bowties.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Activity.py" />
     <entry file="file://$PROJECT_DIR$/roots.py" />
@@ -454,21 +565,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tetris2.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state>
           <caret column="3" selection-start-column="3" selection-end-column="3" />
+=======
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> lab
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lab 1.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+=======
+        <state relative-caret-position="306">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+>>>>>>> lab
           <folding>
             <element signature="e#191#204#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Lab3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -485,6 +607,31 @@
           <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
             <marker date="1536769817568" expanded="true" signature="32:150" ph="..." />
+=======
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lab3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="77" column="8" lean-forward="true" selection-start-line="77" selection-start-column="8" selection-end-line="86" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bowties.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="59" column="59" selection-start-line="59" selection-start-column="59" selection-end-line="59" selection-end-column="59" />
+          <folding>
+            <marker date="1536788311650" expanded="true" signature="40:45" ph="..." />
+            <marker date="1536788311650" expanded="true" signature="332:337" ph="..." />
+            <marker date="1536788311650" expanded="true" signature="534:894" ph="..." />
+            <marker date="1536788311650" expanded="true" signature="905:910" ph="..." />
+>>>>>>> lab
           </folding>
         </state>
       </provider>
