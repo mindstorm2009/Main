@@ -52,6 +52,20 @@ def draw_one_bowtie(size):
 
 
 def draw_bowties(size, depth):
+    """
+    draw_bowties recursively draws bow ties with each iteration being 1/3 of the original bow tie, rotated 30 degrees
+    more than the previous iteration, and moved that depths size away from the previous iteration
+    depth (int): The current depth of recursion
+    size (int): The starting size of each circle
+    Preconditions:
+        depth >= 0, size > 0
+        turtle is facing east
+        turtle pen is up
+    Post-conditions:
+        Bow tie/s have been drawn for the current depth,
+        turtle is facing east
+        turtle pen is up
+    """
     if depth == 0:
         pass
     elif depth == 1:
