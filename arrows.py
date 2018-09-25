@@ -1,10 +1,11 @@
 """
 
     File: arrows.py
-    Assignment: homework
+    Assignment: lab
     Language: python3
     Author: Nicholas Curl
-    Purpose: Use the turtle library, parameters, inputs, and recursion to draw bow ties in decreasing size and in
+    Purpose: Use the turtle library, parameters, inputs, recursion and iteration to draw arrows of random sizes,
+    placement and colors within a bounding box
     different positions on the canvas.
 
 """
@@ -13,6 +14,9 @@
 from turtle import *
 from random import *
 from math import *
+
+"""Definitions and functions to draw arrows of different size, placement, and color randomly using recursion and 
+iteration"""
 
 # Definitions for the Constants
 MAX_FIGURES = 500
@@ -31,6 +35,7 @@ def initialize():
 
 
 def draw_bounding_box():
+    """Draws a bounding box with a length of 400 units on each side"""
     forward(BOUNDING_BOX)
     left(90)
     down()
@@ -50,6 +55,7 @@ def draw_bounding_box():
 
 
 def draw_arrow(size):
+    """ Draws one arrow based on the size, passed as a parameter, and randomly selects a color"""
     r = randint(10, 255)
     g = randint(10, 255)
     b = randint(10, 255)
@@ -67,20 +73,27 @@ def draw_arrow(size):
 
 
 def turtle_move(move):
+    """Chooses a random angle within the range of [-30 degrees, 30 degrees], then moves the turtle forward based on the
+    parameter"""
     angle = randint(-MAX_ANGLE, MAX_ANGLE)
     left(angle)
     forward(move)
 
 
 def arrows_rec(count, area):
+    """Recursively draws count number of arrows, with each sequence choosing a random size and movement within their
+    maximum boundaries, while keeping the triangles from drawing outside the bounding box, and calculates the total
+    area painted"""
     size = randint(1, MAX_SIZE)
     move = randint(1, MAX_DISTANCE)
+    # Checks to see if the count is 0 to finish the recursion
     if count == 0:
         return area
     else:
         turtle_move(move)
         x = abs(xcor()) + size
         y = abs(ycor()) + size
+        # Checks to see if the arrow to be drawn will be outside the bounding box
         if x >= BOUNDING_BOX or y >= BOUNDING_BOX:
             left(180)
             forward(size + move)
@@ -93,8 +106,12 @@ def arrows_rec(count, area):
 
 
 def arrows_iter(count):
+    """Iteratively draws count number of arrows, with each sequence choosing a random size and movement within their
+        maximum boundaries, while keeping the triangles from drawing outside the bounding box, and calculates the total
+        area painted"""
     area = 0
     n = 0
+    # Condition to return the area if the count is not > 0
     if count == 0:
         return area
     while n <= count:
@@ -103,6 +120,7 @@ def arrows_iter(count):
         turtle_move(move)
         x = abs(xcor()) + size
         y = abs(ycor()) + size
+        # Checks to see if the arrow to be will be outside the bounding box
         if x >= BOUNDING_BOX or y >= BOUNDING_BOX:
             left(180)
             forward(size + move)
@@ -114,6 +132,8 @@ def arrows_iter(count):
 
 
 def main():
+    """Main function that prompts the user for the amount of arrows to be drawn, and outputs the total area of both
+    the recursive and iterative functions"""
     initialize()
     count = int(input("Arrows (0-500): "))
     if count > 500 or count < 0:
@@ -131,5 +151,6 @@ def main():
     done()
 
 
+# Checks to see if running as a file
 if __name__ == '__main__':
     main()
