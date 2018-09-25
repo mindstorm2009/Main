@@ -5,6 +5,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="tetris.*" />
+          <option value="arrows.left" />
+          <option value="arrows.*" />
         </list>
       </option>
     </inspection_tool>
