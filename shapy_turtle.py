@@ -70,7 +70,7 @@ def go_to(st):
     goto(x,y)
 def turtle_color(st):
     num = int(get_num(st))
-    if num 
+    if num
 
 def process_st(st):
     for i in range(len(st)):
