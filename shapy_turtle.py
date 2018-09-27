@@ -12,7 +12,7 @@ def get_num(st):
 def get_num_double(st):
     num1 = get_num(st)
     num2 = get_num(st[len(num1)+1:])
-    return num1, num2
+    return int(num1), int(num2)
 def turn_left(st):
     num = int(get_num(st))
     left(num)
@@ -50,11 +50,32 @@ def pen_down():
     down()
 def draw_rectangle(st):
     length, width = get_num_double(st)
-
+    down()
+    for i in range(0,2):
+        forward(length)
+        left(90)
+        forward(width)
+        left(90)
+    up()
+def draw_polygon(st):
+    sides, length = get_num_double(st)
+    angle = 360/sides
+    down()
+    for i in range(0,sides):
+        forward(length)
+        left(angle)
+    up()
+def go_to(st):
+    x,y = get_num_double(st)
+    goto(x,y)
+def turtle_color(st):
+    num = int(get_num(st))
+    if num 
 
 def process_st(st):
     for i in range(len(st)):
         if st[i]== "<":
+
 
 
 
