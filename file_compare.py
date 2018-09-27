@@ -32,6 +32,8 @@ def char_by_char(name1, name2):
         if totallinecount1 > totallinecount2 or totallinecount1 < totallinecount2:
             print(linenumber, end=", ")
             break
+        if totallinecount1 == totallinecount2 and line1 == "" or line2 == "":
+            break
     print("")
     print("There are", totalcharcount1, "characters in", name1)
     print("There are", totalcharcount2, "characters in", name2)
