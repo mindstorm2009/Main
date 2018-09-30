@@ -1,4 +1,17 @@
+"""
+    File: file_compare.py
+    Assignment: homework
+    Language: python3
+    Author: Nicholas Curl
+    Purpose: Compare the characters of two files
+"""
+
+
+# Definitions and functions to compare two files
+
+
 def char_by_char(name1, name2):
+    """Function that compares the lines in two files"""
     print("Character by Character:")
     f1 = open(name1)
     f2 = open(name2)
@@ -11,6 +24,7 @@ def char_by_char(name1, name2):
     totalcharcount2 = 0
     print("Unmatched Character:", end=" ")
     while True:
+        # Reads the lines of each file
         line1 = f1.readline()
         line2 = f2.readline()
         line1 = line1.strip()
@@ -22,6 +36,7 @@ def char_by_char(name1, name2):
         if line2 != "":
             totallinecount2 += 1
             totalcharcount2 += len(line2)
+        # Checks to see if the length of lines are the same
         if len(line1) == len(line2):
             for ch2 in range(0, len(line2)):
                 if line1[ch2] != line2[ch2]:
@@ -29,9 +44,11 @@ def char_by_char(name1, name2):
                     charcount += 1
         else:
             linecount += 1
+        # Checks if there are more lines in any of the files than the other
         if totallinecount1 > totallinecount2 or totallinecount1 < totallinecount2:
             print(linenumber, end=", ")
             break
+        # Checks if there are no more lines
         if totallinecount1 == totallinecount2 and line1 == "" or line2 == "":
             break
     print("")
@@ -44,8 +61,10 @@ def char_by_char(name1, name2):
 
 
 def main():
+    """Main function to run the char_by_char function"""
     char_by_char("t1.txt", "t2.txt")
 
 
+# Checks if being run as a file
 if __name__ == '__main__':
     main()
