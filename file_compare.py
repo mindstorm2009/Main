@@ -62,7 +62,9 @@ def char_by_char(name1, name2):
 
 def main():
     """Main function to run the char_by_char function"""
-    char_by_char("t1.txt", "t2.txt")
+    file1 = input("File 1:")
+    file2 = input("File 2:")
+    char_by_char(file1, file2)
 
 
 # Checks if being run as a file
