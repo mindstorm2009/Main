@@ -78,10 +78,12 @@ def caesar(original, codeword):
 
     # Get shift for first character.  All characters must
     # have identical shift for it to be a valid Caesar shift.
-    shift = ord(codeword[0]) - ord(original[0])
+    shift = abs(ord(codeword[0]) - ord(original[0]))
 
     for idx in range(len(codeword)):
-        if ord(codeword[idx]) - ord(original[idx]) != shift:
+        if abs(ord(codeword[idx]) - (ord(original[idx])+shift)) == 26:
+            continue
+        if abs(ord(codeword[idx]) - ord(original[idx])) != shift:
             return -1
 
     return shift

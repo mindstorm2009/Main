@@ -50,7 +50,7 @@ def caesar_shift_20():
 
 
 def caesar_shift_25():
-    test = caesar("FUNCTION", "ETMBSHNM")
+    test = caesar("FUNCTION", "BQJYPEKJ")
     if test != -1:
         print("success", test)
     else:
