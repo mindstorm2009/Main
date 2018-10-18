@@ -2,13 +2,13 @@ from turtle import *
 from math import *
 from random import *
 
+
 def init():
     setworldcoordinates(-10, 0, 10, 1000)
     speed(0)
     ht()
     colormode(255)
     up()
-
 
 
 def draw_circle(rad, r, g, b):
@@ -50,24 +50,26 @@ def draw_circles(rad, dec):
                 break
             goto(x, y)
             x = 10 * angle
-            y = x*exp(x)
+            y = x * exp(x)
             draw_circle(rad, red, grn, blu)
             angle += 0.1
+
 
 def draw_function():
     angle = -100
     x = 0
     y = 0
     while True:
-        goto(x,y)
+        goto(x, y)
         down()
         x += 0.1
         y = log1p(x)
         angle += 0.1
 
+
 def main():
     init()
-    #draw_circles(5, 1)
+    # draw_circles(5, 1)
     draw_function()
     done()
 
