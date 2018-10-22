@@ -3,12 +3,15 @@ File: HW08.py
 Author: Nicholas Curl
 """
 
+# Import the necessary libraries and programs to run this program.
 import random
 from time import *
 import insertion_sort
 import merge_sort
 import quick_sort
-import sys
+
+
+# Definitions and functions to test different sorting algorithms and for running a merge-quick sort algorithm
 
 
 def get_list1(n):
@@ -59,6 +62,8 @@ def get_list4(n):
 
 
 def partition(L):
+    """Same as the partition function in quick_sort.py file, but returns a blank tuple when a blank list is inputted and
+    sets the pivot when called"""
     if L == []:
         return [], [], []
     pivot = L[0]
@@ -74,6 +79,7 @@ def partition(L):
 
 
 def split(L):
+    """Same as the split function in merge_sort.py, which splits the list based on even and odd indexes"""
     if L == []:
         return []
     else:
@@ -90,6 +96,9 @@ def split(L):
 
 
 def merge_quick_sort(L):
+    """A sorting algorithm that utilizes the merge and quick sort algorithms.  Each recursion it runs a layer of quick
+    sort and a layer of merge sort."""
+    # Checks to see if the list is blank
     if L == []:
         return []
     else:
@@ -102,6 +111,7 @@ def merge_quick_sort(L):
 
 
 def test_merge_quick_sort():
+    """Tests the merge-quick sort algorithm with a list of length 20, printing the unsorted list and the sorted list"""
     print("Testing the correctness of merge_quick_sort:")
     print("Before sorted:")
     unsorted_lst = get_list2(20)
@@ -112,6 +122,7 @@ def test_merge_quick_sort():
 
 
 def test_compare_l1(n):
+    """Test the speed of each algorithm using the get_list1() function to create a list of n length"""
     print("Testing with list 1- random elements")
     lst1 = get_list1(n)
     lst2 = lst1[:]
@@ -137,6 +148,7 @@ def test_compare_l1(n):
 
 
 def test_compare_l2(n):
+    """Test the speed of each algorithm using the get_list2() function to create a list of n length"""
     print("Testing with list 2 - repeated elements")
     lst1 = get_list2(n)
     lst2 = lst1[:]
@@ -162,6 +174,7 @@ def test_compare_l2(n):
 
 
 def test_compare_l3(n):
+    """Test the speed of each algorithm using the get_list3() function to create a list of n length"""
     print("Testing with list 3 - overall increasing elements, not favorable to quick sort")
     lst1 = get_list3(n)
     lst2 = lst1[:]
@@ -187,6 +200,7 @@ def test_compare_l3(n):
 
 
 def test_compare_l4(n):
+    """Test the speed of each algorithm using the get_list4() function to create a list of n length"""
     print("Testing with list 4 - not favorable to quick sort")
     lst1 = get_list4(n)
     lst2 = lst1[:]
@@ -212,6 +226,7 @@ def test_compare_l4(n):
 
 
 def test_compare():
+    """Runs each of the test_compare_#() functions and sets n to 10000"""
     n = 10000
     print("")
     print("Time comparison test begins.")
@@ -225,9 +240,11 @@ def test_compare():
 
 
 def main():
+    """Main function for running the test_merge_quick_sort() function and the test_compare() function"""
     test_merge_quick_sort()
     test_compare()
 
 
+# Checks to see if being run as a file or as a library
 if __name__ == '__main__':
     main()
