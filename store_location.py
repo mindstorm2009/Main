@@ -1,3 +1,9 @@
+"""
+    File: store_location.py
+    Author: Nicholas Curl
+"""
+
+
 from time import *
 
 
@@ -33,6 +39,7 @@ def partition(pivot, L):
 
 # New Code
 def create_list(filename):
+    """Creates a list from a given file"""
     file = open(filename)
     L = []
     for line in file:
@@ -44,7 +51,10 @@ def create_list(filename):
 
 
 def median_simple(L):
+    """Uses the quicksort algorithm to sort the list then choose the median values, calculates the average of the middle
+    two values if the list is even"""
     lst = quick_sort(L)
+    # Checks to see if the list is even
     if len(lst) % 2 == 1:
         half = int(len(lst) // 2)
         return lst[half]
@@ -55,12 +65,15 @@ def median_simple(L):
 
 
 def distance(L, loc):
+    """Calculates the distance of each location in relation to the median store and calculates the sum of those
+    distances"""
     accum = 0
     for element in L:
         accum += abs(loc - element)
     return accum
 
 def elapsed_time_simple(filename):
+    """Runs the elapsed time to figure out the median value as well as the sum of the distances to the target store"""
     lst = create_list(filename)
     start = time()
     loc = median_simple(lst)
@@ -72,6 +85,8 @@ def elapsed_time_simple(filename):
 
 
 def main():
+    """Main function to execute the best location and the distance.  It also calculates the time to accomplish these
+    functions"""
     filename = input("Enter data file: ")
     lst = create_list(filename)
     start = time()
@@ -82,6 +97,6 @@ def main():
     print("Sum of distances to new store:", dist, "\n")
     print("Elapsed time :", "%.20f" % (end - start), "seconds")
 
-
+# Checks to see if being run as a file or as a library and executes the main() function if being run as a file
 if __name__ == '__main__':
     main()

@@ -1,14 +1,22 @@
+"""
+    File: select_median.py
+    Author: Nicholas Curl
+"""
+
 from store_location import *
 from quick_sort import *
 from time import *
 
 
 def quick_select(L, k):
+    """An algorithm to figure out the kth smallest value of a list"""
     if L != []:
         pivot = L[len(L) // 2]
         smallerList, same, largerList = partition(pivot, L)
         count = len(same)
         m = len(smallerList)
+        """ Checks to see if the k value is greater than or equal to the length of the smaller list and les than the 
+        length of the smaller list and the total number of elements that are the same as the pivot"""
         if k >= m and k < m + count:
             return pivot
         elif m > k:
@@ -18,7 +26,9 @@ def quick_select(L, k):
 
 
 def median_quickselect(L):
+    """Selects the median value using the quick select algorithm"""
     k = (len(L) - 1) // 2
+    # Checks to see if the length of the list is even or odd
     if len(L) % 2 == 1:
         med = quick_select(L, k)
         return med
@@ -30,6 +40,8 @@ def median_quickselect(L):
 
 
 def elapsed_time_quickselect(filename):
+    """Finds the best location for the store, the sum of the distances of each other store locations, and the total time
+    to for the functions to execute"""
     lst = create_list(filename)
     start = time()
     loc = median_quickselect(lst)
@@ -41,6 +53,8 @@ def elapsed_time_quickselect(filename):
 
 
 def main():
+    """The main function to find the optimal location for the store, the sum of the distances of other stores to the
+    optimal store and the total time to execute both of these functions"""
     filename = input("Enter data file: ")
     lst = create_list(filename)
     start = time()
