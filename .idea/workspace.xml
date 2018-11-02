@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c0ca08-3f7f-4097-ad40-19f439f1f36d" name="Default Changelist" comment="updated file">
-      <change afterPath="$PROJECT_DIR$/items2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/items4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selection_sort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/moving.py" beforeDir="false" afterPath="$PROJECT_DIR$/moving.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,7 +33,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="19" />
-          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
@@ -48,7 +43,7 @@
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -67,14 +62,14 @@
         <counts>
           <entry key="Python Console" value="21" />
           <entry key="dummy" value="7" />
-          <entry key="py" value="22136" />
+          <entry key="py" value="22900" />
           <entry key="txt" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="29" />
-          <entry key="Python" value="22157" />
+          <entry key="Python" value="22921" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -153,16 +148,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/moving.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-              <folding>
-                <marker date="1540589441933" expanded="true" signature="897:2216" ph="..." />
-                <marker date="1540589441933" expanded="true" signature="1343:2216" ph="..." />
-                <marker date="1540589441933" expanded="true" signature="1796:2216" ph="..." />
-                <marker date="1540589441933" expanded="true" signature="2862:3605" ph="..." />
-                <marker date="1540589441933" expanded="true" signature="3633:4796" ph="..." />
-                <marker date="1540589441933" expanded="true" signature="4251:4796" ph="..." />
-              </folding>
+            <state relative-caret-position="34">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -468,8 +455,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -503,19 +491,8 @@
     <MESSAGE value="updated file" />
     <option name="LAST_COMMIT_MESSAGE" value="updated file" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/moving.py</url>
-          <line>111</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Activity.py" />
+    <entry file="file://$PROJECT_DIR$/activity.py" />
     <entry file="file://$PROJECT_DIR$/tetris.py" />
     <entry file="file://$PROJECT_DIR$/tetris2.py" />
     <entry file="file://$PROJECT_DIR$/roots.py" />
@@ -602,16 +579,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/moving.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2550">
-          <caret line="150" column="18" lean-forward="true" selection-start-line="150" selection-start-column="18" selection-end-line="150" selection-end-column="18" />
-          <folding>
-            <marker date="1540589441933" expanded="true" signature="897:2216" ph="..." />
-            <marker date="1540589441933" expanded="true" signature="1343:2216" ph="..." />
-            <marker date="1540589441933" expanded="true" signature="1796:2216" ph="..." />
-            <marker date="1540589441933" expanded="true" signature="2862:3605" ph="..." />
-            <marker date="1540589441933" expanded="true" signature="3633:4796" ph="..." />
-            <marker date="1540589441933" expanded="true" signature="4251:4796" ph="..." />
-          </folding>
+        <state relative-caret-position="34">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
         </state>
       </provider>
     </entry>

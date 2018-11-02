@@ -1,3 +1,8 @@
+"""
+    File: moving.py
+    Author: Nicholas Curl
+"""
+
 from dataclasses import dataclass
 
 
@@ -17,6 +22,7 @@ class Item:
 
 
 def make_boxes_and_items(filename):
+    """Creates two lists one for the boxes using the Box data class and one for items using the Item data class"""
     file = open(filename)
     boxes = []
     items = []
@@ -41,11 +47,12 @@ def swap(lst, i, j):
 
 
 def sort_ascending_items(items):
+    """Sorts the items by weight in ascending order"""
     for mark in range(0, len(items)):
         n = 0
         temp = mark
         while True:
-            # Checks to see if the maker term is less than the previous term
+            # Checks to see if the maker term is greater than the previous term
             if items[temp].weight > items[temp - n].weight:
                 swap(items, temp, temp - n)
                 temp = temp - n
@@ -57,11 +64,12 @@ def sort_ascending_items(items):
 
 
 def sort_boxes_ascending(boxes):
+    """Sorts the boxes by the remaining capacity in ascending order"""
     for mark in range(0, len(boxes)):
         n = 0
         temp = mark
         while True:
-            # Checks to see if the maker term is less than the previous term
+            # Checks to see if the maker term is greater than the previous term
             if boxes[temp].remaining > boxes[temp - n].remaining:
                 swap(boxes, temp, temp - n)
                 temp = temp - n
@@ -73,6 +81,7 @@ def sort_boxes_ascending(boxes):
 
 
 def sort_boxes_descending(boxes):
+    """Sorts the boixes by the remaining capacity in descending order"""
     for mark in range(0, len(boxes)):
         n = 0
         temp = mark
@@ -89,6 +98,7 @@ def sort_boxes_descending(boxes):
 
 
 def greedy_strat1(filename):
+    """Runs through the first greedy strategy"""
     boxes, items = make_boxes_and_items(filename)
     packed = False
     notpacked = []
@@ -109,6 +119,7 @@ def greedy_strat1(filename):
 
 
 def packing(boxes, unpacked):
+    """Checks the contents of each box and determines if every item was packed"""
     if unpacked == []:
         print("All items successfully packed into boxes")
         for i in range(0, len(boxes)):
@@ -126,6 +137,7 @@ def packing(boxes, unpacked):
 
 
 def greedy_strat2(filename):
+    """Runs throuh the second greedy strategy"""
     boxes, items = make_boxes_and_items(filename)
     packed = False
     notpacked = []
@@ -146,6 +158,7 @@ def greedy_strat2(filename):
 
 
 def greedy_strat3(filename):
+    """Runs though the third greedy strategy"""
     boxes, items = make_boxes_and_items(filename)
     packed = False
     notpacked = []
@@ -165,6 +178,7 @@ def greedy_strat3(filename):
 
 
 def main():
+    """Executes the previous greedy strategies and checks to see if all the items have been packed"""
     filename = input("Enter data filename: ")
     print("\nResults from Greedy Strategy 1")
     boxes, unpacked = greedy_strat1(filename)
@@ -177,4 +191,6 @@ def main():
     packing(boxes, unpacked)
 
 
-main()
+# Checks to see if being run as a file or library
+if __name__ == '__main__':
+    main()
