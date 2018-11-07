@@ -1,3 +1,10 @@
+"""
+    File: dna.py
+    Author: Nicholas Curl
+    Description: lab
+
+"""
+
 from dataclasses import dataclass
 from typing import Any, Union
 import linked_code as lc
@@ -11,6 +18,7 @@ class DNA:
 
 
 def convert_to_nodes(dna_string):
+    """Converts the inputted string to a node structure"""
     if dna_string == "":
         return None
     else:
@@ -18,6 +26,7 @@ def convert_to_nodes(dna_string):
 
 
 def convert_to_string(dna_seq):
+    """Takes an inputted node sequence and converts it to a string"""
     if dna_seq is None:
         return ""
     else:
@@ -26,6 +35,7 @@ def convert_to_string(dna_seq):
 
 
 def is_match(dna_seq1, dna_seq2):
+    """Checks to see if both of the DNA sequences are the same"""
     if dna_seq1 is None and dna_seq2 is None:
         return True
     elif dna_seq1 is None or dna_seq2 is None:
@@ -37,6 +47,8 @@ def is_match(dna_seq1, dna_seq2):
 
 
 def is_pairing(dna_seq1, dna_seq2):
+    """Checks to see if the inputted DNA sequences are pairs to each other, i.e., A matches with T and G matches with C
+    """
     if dna_seq1 is None and dna_seq2 is None:
         return True
     elif dna_seq1 is None or dna_seq2 is None:
@@ -54,6 +66,7 @@ def is_pairing(dna_seq1, dna_seq2):
 
 
 def is_palindrome(dna_seq):
+    """Checks to see if the sequence is a palindrome"""
     if dna_seq is None or dna_seq.rest is None:
         return True
     elif dna_seq.value == lc.reverse_iter(dna_seq).value:
@@ -64,6 +77,7 @@ def is_palindrome(dna_seq):
 
 
 def substitution(dna_seq1, idx, base):
+    """substitutes the allele at the given index with base"""
     if idx > lc.length_iter(dna_seq1) - 1:
         raise IndexError("Index out of range")
     elif idx == 0:
@@ -73,6 +87,7 @@ def substitution(dna_seq1, idx, base):
 
 
 def insertion(dna_seq1, dna_seq2, idx):
+    """Inserts a second DNA sequence in the first sequence at a given index"""
     if idx > lc.length_iter(dna_seq1):
         raise IndexError("Index out of range")
     elif idx == 0:
@@ -82,6 +97,7 @@ def insertion(dna_seq1, dna_seq2, idx):
 
 
 def deletion(dna_seq, idx, segment_size):
+    """Deletes a segment from the sequence starting at the index and going till it reaches segment_size"""
     if segment_size == 0:
         return dna_seq
     elif idx > lc.length_iter(dna_seq) or idx + segment_size > lc.length_iter(dna_seq):
@@ -96,6 +112,8 @@ def deletion(dna_seq, idx, segment_size):
 
 
 def duplication(dna_seq, idx, segment_size):
+    """Duplicates a segment in the sequence starting at the index and going to it reaches segment_size and places it
+    after the the duplicated segment"""
     if segment_size == 0:
         return dna_seq
     elif idx > lc.length_iter(dna_seq) or idx + segment_size > lc.length_iter(dna_seq):
