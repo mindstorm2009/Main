@@ -1,6 +1,6 @@
 """
 file: linked_insort.py
-author: your name here
+author: Nicholas Curl
 description: homework
 """
 
@@ -25,8 +25,6 @@ def insert(value, lnk):
     if lnk.value > value:
         return linked_code.LinkNode(value, lnk)
 
-    # return None  # Change this line, too.
-
 
 def insort(lnk):
     """
@@ -35,7 +33,6 @@ def insort(lnk):
     :param lnk: the node at the head of the provided list
     :return: the head node of the sorted linked list
     """
-    # YOUR CODE HERE
     length = linked_code.length_iter(lnk)
     for mark in range(length - 1):
         index = mark
@@ -51,8 +48,6 @@ def insort(lnk):
             lnk = insert(value, lnk)
     return lnk
 
-    # return None  # Change this line, too.
-
 
 def pretty_print(lnk):
     """
@@ -66,4 +61,3 @@ def pretty_print(lnk):
         lst += [lnk.value]
         lnk = lnk.rest
     print(lst)
-    # YOUR CODE HERE

@@ -1,6 +1,6 @@
 """
 file: test_link_sort.py
-author: your name here
+author: Nicholas Curl
 description: tester for functions in linked_insort.py
 """
 
