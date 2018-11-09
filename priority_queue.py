@@ -1,3 +1,10 @@
+"""
+    File: priority_queue.py
+    Author: Nicholas Curl
+    Description: homework
+
+"""
+
 from dataclasses import dataclass
 from typing import Union
 from node import *
@@ -12,10 +19,12 @@ class PriorityQueue:
 
 
 def make_priority_queue():
+    """Makes an empty priority queue"""
     return PriorityQueue(0, None, None)
 
 
 def nodes_by_priority(nodes, element):
+    """Moves the elements in the node to accommodate the new element priority"""
     if nodes is None:
         node = Node(element, None)
         return node
@@ -29,6 +38,7 @@ def nodes_by_priority(nodes, element):
 
 
 def get_end(nodes):
+    """Checks the end of the node sequence"""
     if nodes.rest is None:
         return nodes.value
     else:
@@ -36,6 +46,9 @@ def get_end(nodes):
 
 
 def enqueue(queue, element):
+    """
+    Insert an element into the the queue at the right priority. (Returns None)
+    """
     nodes = queue.front
     newnode = Node(element, None)
     if is_empty(queue):
@@ -46,21 +59,6 @@ def enqueue(queue, element):
         nodes = queue.front
     queue.back = Node(get_end(nodes), None)
     queue.size = queue.size + 1
-
-
-def dequeue(queue):
-    """
-        Remove the front element from the queue. (returns removed value)
-        precondition: queue is not empty.
-        """
-    if is_empty(queue):
-        raise IndexError("dequeue on empty queue")
-    removed = queue.front.value
-    queue.front = queue.front.rest
-    if is_empty(queue):
-        queue.back = None
-    queue.size = queue.size - 1
-    return removed
 
 
 def front(queue):

@@ -1,3 +1,11 @@
+"""
+    File: tasks.py
+    Author: Nicholas Curl
+    Description: homework
+
+"""
+
+
 from dataclasses import dataclass
 from priority_queue import *
 from random import *
@@ -11,10 +19,12 @@ class Task:
 
 
 def make_task(name, priority):
+    """Makes an task"""
     return Task(name, priority)
 
 
 def order_of_queue2(q, priority1, priority2, task1, task2):
+    """Tests for checking the order of the queue of two elements"""
     print("Is Task 2 priority > Task 1 priority", priority2 > priority1)
     print("Is Task 2 priority < Task 1 priority", priority2 < priority1)
     print("Is Task 2 priority = Task 1 priority", priority2 == priority1)
@@ -33,6 +43,7 @@ def order_of_queue2(q, priority1, priority2, task1, task2):
 
 
 def order_of_queue3(q, priority1, task1, priority2, task2, priority3, task3):
+    """Tests for checking the order of the queue of three elements"""
     print("Is Task 3 priority > Task 1 priority", priority3 > priority1)
     print("Is Task 3 priority < Task 1 priority", priority3 < priority1)
     print("Is Task 3 priority = Task 1 priority", priority3 == priority1)
@@ -81,6 +92,7 @@ def order_of_queue3(q, priority1, task1, priority2, task2, priority3, task3):
 
 
 def priority4_conditions(q, priority1, task1, priority2, task2, priority3, task3, priority4, task4):
+    """Tests for checking the order of the queue if the fourth element is the front element"""
     if priority1 < priority2 < priority3 < priority4:
         print("front is Task('Task 4',", priority4, ")? ", task4 == front(q), sep="")
         print("back is Task('Task 1',", priority1, ")? ", task1 == back(q), sep="")
@@ -123,6 +135,7 @@ def priority4_conditions(q, priority1, task1, priority2, task2, priority3, task3
 
 
 def priority3_conditions(q, priority1, task1, priority2, task2, priority3, task3, priority4, task4):
+    """Tests for checking the order of the queue if the third element is the front element"""
     if priority1 < priority2 < priority4 < priority3:
         print("front is Task('Task 3',", priority3, ")? ", task3 == front(q), sep="")
         print("back is Task('Task 1',", priority1, ")? ", task1 == back(q), sep="")
@@ -174,6 +187,7 @@ def priority3_conditions(q, priority1, task1, priority2, task2, priority3, task3
 
 
 def priority2_conditions(q, priority1, task1, priority2, task2, priority3, task3, priority4, task4):
+    """Tests for checking the order of the queue if the second element is the front element"""
     if priority1 < priority3 < priority4 < priority2:
         print("front is Task('Task 2',", priority2, ")? ", task2 == front(q), sep="")
         print("back is Task('Task 1',", priority1, ")? ", task1 == back(q), sep="")
@@ -240,6 +254,7 @@ def priority2_conditions(q, priority1, task1, priority2, task2, priority3, task3
 
 
 def priority1_conditions(q, priority1, task1, priority2, task2, priority3, task3, priority4, task4):
+    """Tests for checking the order of the queue if the first element is the front element"""
     if priority2 < priority3 < priority4 < priority1:
         print("front is Task('Task 1',", priority1, ")? ", task1 == front(q), sep="")
         print("back is Task('Task 2',", priority2, ")? ", task2 == back(q), sep="")
@@ -324,6 +339,7 @@ def priority1_conditions(q, priority1, task1, priority2, task2, priority3, task3
 
 
 def order_of_queue4(q, priority1, task1, priority2, task2, priority3, task3, priority4, task4):
+    """Tests for checking the order of the queue of four elements"""
     print("Is Task 4 priority > Task 1 priority", priority4 > priority1)
     print("Is Task 4 priority < Task 1 priority", priority4 < priority1)
     print("Is Task 4 priority = Task 1 priority", priority4 == priority1)
@@ -340,6 +356,7 @@ def order_of_queue4(q, priority1, task1, priority2, task2, priority3, task3, pri
 
 
 def main():
+    """Tests the the priority_queue implementation"""
     # begin with empty queue
     q = make_priority_queue()
     print("Creating empty queue...")
