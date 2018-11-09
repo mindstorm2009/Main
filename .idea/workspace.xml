@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c0ca08-3f7f-4097-ad40-19f439f1f36d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/priority_queue.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tasks.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/tasks.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +38,7 @@
     <session id="-739732857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
@@ -55,28 +54,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="43" />
+          <entry key="py" value="46" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="21" />
           <entry key="dummy" value="22" />
-          <entry key="py" value="30319" />
+          <entry key="py" value="30910" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="30340" />
+          <entry key="Python" value="30931" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -88,8 +87,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/linked_insort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            <state relative-caret-position="211">
+              <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -97,28 +96,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tasks.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6358">
-              <caret line="374" column="21" selection-start-line="374" selection-start-column="21" selection-end-line="374" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
-                <marker date="1541790076318" expanded="true" signature="108:176" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="208:23547" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="1283:23547" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="4614:22389" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="16256:22389" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="22484:22489" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="23558:23563" ph="..." />
-                <marker date="1541790076318" expanded="true" signature="23558:25165" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="190:258" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="313:24237" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="1526:24237" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="4952:23010" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="16877:23010" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="23174:23179" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="24302:24307" ph="..." />
+                <marker date="1541791181089" expanded="true" signature="24302:25909" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Code/Queue/test_queue.py">
+        <entry file="file://$PROJECT_DIR$/cs_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+            <state>
+              <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -126,16 +125,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/priority_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
               <folding>
-                <element signature="e#0#33#0" expanded="true" />
-                <marker date="1541789771266" expanded="true" signature="111:223" ph="..." />
-                <marker date="1541789771266" expanded="true" signature="251:256" ph="..." />
-                <marker date="1541789771266" expanded="true" signature="332:858" ph="..." />
-                <marker date="1541789771266" expanded="true" signature="756:858" ph="..." />
-                <marker date="1541789771266" expanded="true" signature="1218:2482" ph="..." />
-                <marker date="1541789771266" expanded="true" signature="2479:2482" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="201:313" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="381:386" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="543:1115" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="1013:1115" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="1549:2434" ph="..." />
+                <marker date="1541791121212" expanded="true" signature="2431:2434" ph="..." />
               </folding>
             </state>
           </provider>
@@ -146,27 +144,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Desktop/Code/Queue/cs_queue.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-              <folding>
-                <element signature="e#163#184#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Activities/stack.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -493,7 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1539965737312</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added File">
+      <created>1541790102042</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1541790102042</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added File">
+      <created>1541790162482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1541790162482</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added File">
+      <created>1541791158160</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1541791158160</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -507,14 +505,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.329718" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46215352" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.46215352" weight="0.31344903" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4717484" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -587,12 +584,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/priority_queue.py</url>
-          <line>38</line>
+          <line>51</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/priority_queue.py</url>
-          <line>18</line>
+          <line>27</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
       </breakpoints>
@@ -769,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cs_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/linked_code.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -793,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_link_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/selection_sort.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="629">
@@ -811,13 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked_insort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -833,48 +809,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../Activities/stack.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/priority_queue.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-            <marker date="1541789771266" expanded="true" signature="111:223" ph="..." />
-            <marker date="1541789771266" expanded="true" signature="251:256" ph="..." />
-            <marker date="1541789771266" expanded="true" signature="332:858" ph="..." />
-            <marker date="1541789771266" expanded="true" signature="756:858" ph="..." />
-            <marker date="1541789771266" expanded="true" signature="1218:2482" ph="..." />
-            <marker date="1541789771266" expanded="true" signature="2479:2482" ph="..." />
-          </folding>
+        <state relative-caret-position="867">
+          <caret line="53" column="31" lean-forward="true" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Desktop/Code/Queue/test_queue.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+        <state relative-caret-position="659">
+          <caret line="39" column="37" selection-start-line="39" selection-start-column="37" selection-end-line="39" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_insort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="47" column="36" lean-forward="true" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="14" lean-forward="true" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priority_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="33" lean-forward="true" selection-start-line="7" selection-start-column="33" selection-end-line="7" selection-end-column="33" />
+          <folding>
+            <marker date="1541791121212" expanded="true" signature="201:313" ph="..." />
+            <marker date="1541791121212" expanded="true" signature="381:386" ph="..." />
+            <marker date="1541791121212" expanded="true" signature="543:1115" ph="..." />
+            <marker date="1541791121212" expanded="true" signature="1013:1115" ph="..." />
+            <marker date="1541791121212" expanded="true" signature="1549:2434" ph="..." />
+            <marker date="1541791121212" expanded="true" signature="2431:2434" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_link_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tasks.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6358">
-          <caret line="374" column="21" selection-start-line="374" selection-start-column="21" selection-end-line="374" selection-end-column="21" />
+        <state relative-caret-position="357">
+          <caret line="21" column="14" lean-forward="true" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
           <folding>
             <element signature="e#0#33#0" expanded="true" />
-            <marker date="1541790076318" expanded="true" signature="108:176" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="208:23547" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="1283:23547" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="4614:22389" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="16256:22389" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="22484:22489" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="23558:23563" ph="..." />
-            <marker date="1541790076318" expanded="true" signature="23558:25165" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="190:258" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="313:24237" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="1526:24237" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="4952:23010" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="16877:23010" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="23174:23179" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="24302:24307" ph="..." />
+            <marker date="1541791181089" expanded="true" signature="24302:25909" ph="..." />
           </folding>
         </state>
       </provider>

@@ -19,7 +19,7 @@ class Task:
 
 
 def make_task(name, priority):
-    """Makes an task"""
+    """Makes a task"""
     return Task(name, priority)
 
 
