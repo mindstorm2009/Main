@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26c0ca08-3f7f-4097-ad40-19f439f1f36d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/linked_insort.py" beforeDir="false" afterPath="$PROJECT_DIR$/linked_insort.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_link_sort.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_link_sort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/priority_queue.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Main$tetris.coverage" NAME="tetris Coverage Results" MODIFIED="1536340050962" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$merge_sort.coverage" NAME="merge_sort Coverage Results" MODIFIED="1539965846811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Main$tasks.coverage" NAME="tasks Coverage Results" MODIFIED="1541789886556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$quick_sort.coverage" NAME="quick_sort Coverage Results" MODIFIED="1539965976069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$file_compare.coverage" NAME="file_compare Coverage Results" MODIFIED="1538744646260" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$number_generator.coverage" NAME="number_generator Coverage Results" MODIFIED="1539354840119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -30,48 +32,51 @@
     <SUITE FILE_PATH="coverage/Main$activity1.coverage" NAME="activity1 Coverage Results" MODIFIED="1541175236630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$test_link_sort.coverage" NAME="test_link_sort Coverage Results" MODIFIED="1541180191879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Main$tetris2.coverage" NAME="tetris2 Coverage Results" MODIFIED="1536862507086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Main$test_queue.coverage" NAME="test_queue Coverage Results" MODIFIED="1541612872060" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/Code/Queue" />
     <SUITE FILE_PATH="coverage/Main$selection_sort.coverage" NAME="selection_sort Coverage Results" MODIFIED="1539355058628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-739732857">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
-          <entry key="project.open.time.0" value="10" />
+          <entry key="project.closed" value="21" />
+          <entry key="project.open.time.0" value="11" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
-          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="26" />
+          <entry key="py" value="43" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="26" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="43" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="Python Console" value="21" />
           <entry key="dummy" value="22" />
-          <entry key="py" value="25321" />
+          <entry key="py" value="30319" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="32" />
-          <entry key="Python" value="25342" />
+          <entry key="Python" value="30340" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
@@ -81,10 +86,57 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hw08.py">
+        <entry file="file://$PROJECT_DIR$/linked_insort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
+            <state relative-caret-position="-180">
+              <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tasks.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="6358">
+              <caret line="374" column="21" selection-start-line="374" selection-start-column="21" selection-end-line="374" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1541790076318" expanded="true" signature="108:176" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="208:23547" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="1283:23547" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="4614:22389" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="16256:22389" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="22484:22489" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="23558:23563" ph="..." />
+                <marker date="1541790076318" expanded="true" signature="23558:25165" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Code/Queue/test_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/priority_queue.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="194">
+              <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <marker date="1541789771266" expanded="true" signature="111:223" ph="..." />
+                <marker date="1541789771266" expanded="true" signature="251:256" ph="..." />
+                <marker date="1541789771266" expanded="true" signature="332:858" ph="..." />
+                <marker date="1541789771266" expanded="true" signature="756:858" ph="..." />
+                <marker date="1541789771266" expanded="true" signature="1218:2482" ph="..." />
+                <marker date="1541789771266" expanded="true" signature="2479:2482" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -92,17 +144,38 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/anagram.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1666">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
+            <state relative-caret-position="493">
+              <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/linked_insort.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Desktop/Code/Queue/cs_queue.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="268">
+              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+              <folding>
+                <element signature="e#163#184#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Activities/stack.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/node.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -112,51 +185,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-              <folding>
-                <element signature="e#110#151#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5236">
-              <caret line="309" selection-start-line="309" selection-end-line="309" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/linked_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-              <folding>
-                <element signature="e#765#798#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Activity.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -217,6 +245,11 @@
         <option value="$PROJECT_DIR$/activity1.py" />
         <option value="$PROJECT_DIR$/test_link_sort.py" />
         <option value="$PROJECT_DIR$/linked_insort.py" />
+        <option value="$PROJECT_DIR$/nodes.py" />
+        <option value="$USER_HOME$/Desktop/Code/Queue/cs_queue.py" />
+        <option value="$PROJECT_DIR$/cs_queue.py" />
+        <option value="$PROJECT_DIR$/priority_queue.py" />
+        <option value="$PROJECT_DIR$/tasks.py" />
       </list>
     </option>
   </component>
@@ -240,7 +273,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,6 +299,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +326,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_link_sort">
+  <component name="RunManager" selected="Python.tasks">
     <configuration name="activity1" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -308,50 +341,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/activity1.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="anagram" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Main" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/anagram.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="hw08" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Main" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hw08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -382,6 +371,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tasks" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tasks.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="test_link_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -404,20 +415,42 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="test_queue" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Main" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/Code/Queue" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/Code/Queue/test_queue.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.hw08" />
-      <item itemvalue="Python.anagram" />
       <item itemvalue="Python.test_link_sort" />
       <item itemvalue="Python.activity1" />
       <item itemvalue="Python.linked_insort" />
+      <item itemvalue="Python.tasks" />
+      <item itemvalue="Python.test_queue" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.tasks" />
+        <item itemvalue="Python.test_queue" />
         <item itemvalue="Python.test_link_sort" />
         <item itemvalue="Python.linked_insort" />
         <item itemvalue="Python.activity1" />
-        <item itemvalue="Python.hw08" />
-        <item itemvalue="Python.anagram" />
       </list>
     </recent_temporary>
   </component>
@@ -476,20 +509,20 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24360341" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49840087" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4696162" weight="0.31344903" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.478145" visible="true" weight="0.39804772" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.46215352" visible="true" weight="0.31344903" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4717484" weight="0.39804772" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3264642" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="10" sideWeight="0.521855" side_tool="true" visible="true" weight="0.39804772" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5378465" side_tool="true" visible="true" weight="0.31344903" />
       <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.329718" />
       <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49946696" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -537,6 +570,31 @@
           <line>35</line>
           <option name="timeStamp" value="28" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/Code/Queue/cs_queue.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/Desktop/Code/Queue/cs_queue.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/cs_queue.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/priority_queue.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/priority_queue.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -548,11 +606,29 @@
         <watch expression="linked_code.value_at(lnk, index) &gt; linked_code.value_at(lnk, index + 1)" language="Python" />
         <watch expression="linked_code.value_at(lnk, index)" language="Python" />
         <watch expression="linked_code.value_at(lnk, index + 1)" language="Python" />
+        <watch expression="queue.back.rest" language="Python" />
+        <watch expression="element.priority" language="Python" />
+        <watch expression="nodes.value.priority" language="Python" />
       </configuration>
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>nodes.value.priority</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>element.priority</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>queue.back.rest</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>linked_code.value_at(lnk, index + 1)</expression-string>
         <language-id>Python</language-id>
@@ -585,21 +661,6 @@
       </expression>
       <expression>
         <expression-string>len(keys)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>line[i]</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index2 &lt; len(sorted2)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>index1 &lt; len(sorted1)</expression-string>
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -680,37 +741,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/anagram.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1666">
-          <caret line="98" selection-start-line="98" selection-end-line="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5236">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/linked_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding>
-            <element signature="e#765#798#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Activity.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
           <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -721,10 +755,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/selection_sort.py">
+    <entry file="file://$USER_HOME$/Desktop/Code/Stack/node.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nodes.py" />
+    <entry file="file://$PROJECT_DIR$/data1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/codecs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        <state relative-caret-position="473">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cs_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="47" column="25" lean-forward="true" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/linked_code.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="e#765#798#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -732,16 +797,85 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-          <folding>
-            <element signature="e#110#151#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/selection_sort.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="19" selection-start-line="37" selection-start-column="19" selection-end-line="37" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anagram.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="59" column="31" lean-forward="true" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/linked_insort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="-180">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="25" selection-end-line="24" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Code/Queue/cs_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+          <folding>
+            <element signature="e#163#184#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Activities/stack.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="41" column="26" lean-forward="true" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/priority_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="88" column="37" lean-forward="true" selection-start-line="88" selection-start-column="37" selection-end-line="88" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1541789771266" expanded="true" signature="111:223" ph="..." />
+            <marker date="1541789771266" expanded="true" signature="251:256" ph="..." />
+            <marker date="1541789771266" expanded="true" signature="332:858" ph="..." />
+            <marker date="1541789771266" expanded="true" signature="756:858" ph="..." />
+            <marker date="1541789771266" expanded="true" signature="1218:2482" ph="..." />
+            <marker date="1541789771266" expanded="true" signature="2479:2482" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Code/Queue/test_queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="61" column="24" lean-forward="true" selection-start-line="58" selection-start-column="8" selection-end-line="61" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasks.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6358">
+          <caret line="374" column="21" selection-start-line="374" selection-start-column="21" selection-end-line="374" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <marker date="1541790076318" expanded="true" signature="108:176" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="208:23547" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="1283:23547" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="4614:22389" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="16256:22389" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="22484:22489" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="23558:23563" ph="..." />
+            <marker date="1541790076318" expanded="true" signature="23558:25165" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
