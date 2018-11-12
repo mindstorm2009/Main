@@ -272,8 +272,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.activity3">
-    <configuration name="Activity" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.ball_puzzle">
+    <configuration name="ball_puzzle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -286,7 +286,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Activity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ball_puzzle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,7 +295,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="activity2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dna" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -308,7 +308,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/activity2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dna.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -317,7 +317,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="activity3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="dna_tester" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -330,7 +330,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/activity3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dna_tester.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -339,7 +339,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="moving" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -352,7 +352,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/moving.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -361,7 +361,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="quick_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="shapy_turtle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Main" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,7 +374,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quick_sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shapy_turtle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -384,19 +384,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.merge_sort" />
-      <item itemvalue="Python.quick_sort" />
-      <item itemvalue="Python.Activity" />
-      <item itemvalue="Python.activity2" />
-      <item itemvalue="Python.activity3" />
+      <item itemvalue="Python.shapy_turtle" />
+      <item itemvalue="Python.moving" />
+      <item itemvalue="Python.dna" />
+      <item itemvalue="Python.dna_tester" />
+      <item itemvalue="Python.ball_puzzle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.activity3" />
-        <item itemvalue="Python.activity2" />
-        <item itemvalue="Python.Activity" />
-        <item itemvalue="Python.quick_sort" />
-        <item itemvalue="Python.merge_sort" />
+        <item itemvalue="Python.ball_puzzle" />
+        <item itemvalue="Python.dna_tester" />
+        <item itemvalue="Python.dna" />
+        <item itemvalue="Python.moving" />
+        <item itemvalue="Python.shapy_turtle" />
       </list>
     </recent_temporary>
   </component>
