@@ -18,7 +18,7 @@ def fix_by_adjacent(dictionary, adj_letters, letters):
     fixed = False
     for i in range(len(letters)):
         # Skips the characters ' and _ in a word, since it is not in the adjacent letters dictionary
-        if letters[i] == "'" or letters[i].isdigit() or letters[i] == "_":
+        if letters[i] == "'" or letters[i].isdigit() or letters[i] == "_" or letters[i] == "’":
             previous += letters[i]
             continue
         adj = adj_letters[letters[i]]
@@ -104,11 +104,20 @@ def inDict(word, dictionary):
             return True
 
 
+def swap(lst, i, j):
+    """Swaps I for J"""
+    temp = lst[i]
+    lst[i] = lst[j]
+    lst[j] = temp
+    return lst
+
+
 def get_word(word):
     """Gets the word from the split string from the punctuation"""
     punctuation_word = pu.process_punctuation(word)
     w = punctuation_word[math.floor(len(punctuation_word) / 2)]
     for punct in pu.PUNCTUATION:
         if w == punct:
-            return word[0]
+            return punctuation_word[0], punctuation_word
     return w, punctuation_word
+

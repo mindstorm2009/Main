@@ -36,6 +36,7 @@ def words(args, dictionary, letters):
                 if not fixed:
                     incorrect.remove(word)
                     unknown += [fix_word]
+                    continue
                 # Checks to see if the original word was capitalized if it was reapplies the capitalization
                 if isCapital:
                     fix_word = fix_word[0].upper() + fix_word[1:]
@@ -49,3 +50,4 @@ def words(args, dictionary, letters):
     if len(unknown) > 0:
         print(len(unknown), "Unknown Words")
         print(unknown)
+

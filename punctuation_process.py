@@ -15,7 +15,7 @@ PUNCTUATION = list(string.punctuation)
 def process_punctuation(word):
     """Splits the string based on punctuation except for ' and _"""
     word = word.strip()
-    return re.split("([^'a-zA-Z0-9_])", word)
+    return re.split("([^’'a-zA-Z0-9_])", word)
 
 
 def apply_punctuation(punctuation_word, word):
