@@ -9,11 +9,13 @@ from ball_puzzle_animate import *
 
 
 def move_ball(can1, can2, stack_list, ball):
+    """Moves the ball from can1 to can2"""
     push(stack_list[can2], ball)
     animate_move(stack_list, can1, can2)
 
 
 def make_cans():
+    """Makes an 3 empty cans and puts them into a list"""
     stack_list = []
     for i in range(3):
         stack_list += [make_empty_stack()]
@@ -21,6 +23,7 @@ def make_cans():
 
 
 def init(balls):
+    """Initializes the balls in the red can and the animation"""
     cans = make_cans()
     ball_list = balls
     for ball in ball_list:
@@ -31,6 +34,7 @@ def init(balls):
 
 
 def solve_puzzle(stack_list):
+    """Solves the puzzle and counts and returns the number of moves to complete the puzzle"""
     moves = 0
     while not is_empty(stack_list[0]):
         ball = pop(stack_list[0])
@@ -82,6 +86,7 @@ def solve_puzzle(stack_list):
 
 
 def main():
+    """Main function for the program"""
     balls = input("What are the initial balls: ")
     stack_list = init(balls)
     moves = solve_puzzle(stack_list)
@@ -89,4 +94,5 @@ def main():
     animate_finish()
 
 
-main()
+if __name__ == '__main__':
+    main()
