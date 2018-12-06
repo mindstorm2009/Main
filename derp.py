@@ -10,7 +10,7 @@ the expression.
 
 Author: Scott C Johnson (scj@cs.rit.edu)
 
-Author: YOUR NAME HERE
+Author: Nichols Curl
 """
 
 from dataclasses import dataclass
@@ -106,6 +106,7 @@ def evaluate(node, symTbl):
 # main
 ##############################################################################
 def create_symtbl(filename):
+    """Creates a symTbl from the given filename"""
     file = open(filename)
     symtbl = {}
     for line in file:
@@ -117,12 +118,14 @@ def create_symtbl(filename):
 
 
 def display_symtbl(symTbl):
+    """Displays the symTbl"""
     print("Derping the Symbol Table (variable name => integer value)...")
     for keys in symTbl:
         print(keys, "=>", symTbl[keys])
 
 
 def add(left, right, symTbl):
+    """Function to process the symTbl and/or a literal value and add them together"""
     if isinstance(left, VariableNode):
         left = symTbl[left.name]
     elif isinstance(left, LiteralNode):
@@ -135,6 +138,7 @@ def add(left, right, symTbl):
 
 
 def subtract(left, right, symTbl):
+    """Function to process the symTbl and/or a literal value and subtract the left by right"""
     if isinstance(left, VariableNode):
         left = symTbl[left.name]
     elif isinstance(left, LiteralNode):
@@ -147,6 +151,7 @@ def subtract(left, right, symTbl):
 
 
 def multiply(left, right, symTbl):
+    """Function to process the symTbl and/or a literal value and multiply them together"""
     if isinstance(left, VariableNode):
         left = symTbl[left.name]
     elif isinstance(left, LiteralNode):
@@ -159,6 +164,7 @@ def multiply(left, right, symTbl):
 
 
 def divide(left, right, symTbl):
+    """Function to process the symTbl and/or a literal value and divide the left by right"""
     if isinstance(left, VariableNode):
         left = symTbl[left.name]
     elif isinstance(left, LiteralNode):
