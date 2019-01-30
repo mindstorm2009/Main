@@ -2,7 +2,7 @@
 file: hashtable.py
 description: open addressing Hash Table for CS 141 Lecture
 language: python3.7
-author: RIT CS Instructors
+author: RIT CS Instructors and Nicholas Curl
 """
 
 from dataclasses import dataclass
@@ -140,6 +140,8 @@ def get(hTable, key):
 
 
 def resize_hash_table(hTable):
+    """Resizes the hash table to be double its the capacity it has and places the entries in the proper index based
+    on modulo math"""
     new_cap = hTable.capacity * 2
     table = []
     for i in range(new_cap):
